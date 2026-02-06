@@ -10,3 +10,7 @@ function getInnerTextByID(id) {
     const convetedValue = parseFloat(value);
     return convetedValue;
 }
+
+function setInnerTextByIDandValue(id,value) {
+    document.getElementById(id).innerText = value;
+}
