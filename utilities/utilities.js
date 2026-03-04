@@ -14,4 +14,3 @@ function getInnerTextByID(id) {
 function setInnerTextByIDandValue(id,value) {
     document.getElementById(id).innerText = value;
 }
-fdkjsphg
